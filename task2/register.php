@@ -36,34 +36,7 @@ if (isset($_POST['register'])) {
 }
 ?>
 
-<!DOCTYPE html>
-    <html>
-        <head>
-            <title>Register</title>
-        </head>
-    <body>
 
-        <h2>Register</h2>
-
-        <form method="POST">
-
-        <input type="text" name="username" placeholder="Username" required><br><br>
-
-        <input type="email" name="email" placeholder="Email" required><br><br>
-
-        <input type="password" name="password" placeholder="Password" required><br><br>
-
-        <button type="submit" name="register">Register</button>
-
-    </form>
-
-        <p><?php echo $message; ?></p>
-
-        <a href="login.php">Login Here</a>
-
-    </body>
-    </html>
-?>
 
 <!DOCTYPE html>
 <html lang="en">
